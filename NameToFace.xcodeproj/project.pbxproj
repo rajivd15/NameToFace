@@ -12,6 +12,8 @@
 		0527E94F1F2A939700D7FB35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0527E94D1F2A939700D7FB35 /* Main.storyboard */; };
 		0527E9511F2A939700D7FB35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0527E9501F2A939700D7FB35 /* Assets.xcassets */; };
 		0527E9541F2A939700D7FB35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0527E9521F2A939700D7FB35 /* LaunchScreen.storyboard */; };
+		0581B7D21F2B0CAE00542C57 /* PersonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0581B7D11F2B0CAE00542C57 /* PersonCell.swift */; };
+		05BBC46E1F2F77CB00FBCB96 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BBC46D1F2F77CB00FBCB96 /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		0527E9501F2A939700D7FB35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0527E9531F2A939700D7FB35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0527E9551F2A939700D7FB35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0581B7D11F2B0CAE00542C57 /* PersonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonCell.swift; sourceTree = "<group>"; };
+		05BBC46D1F2F77CB00FBCB96 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				0527E9501F2A939700D7FB35 /* Assets.xcassets */,
 				0527E9521F2A939700D7FB35 /* LaunchScreen.storyboard */,
 				0527E9551F2A939700D7FB35 /* Info.plist */,
+				0581B7D11F2B0CAE00542C57 /* PersonCell.swift */,
+				05BBC46D1F2F77CB00FBCB96 /* Person.swift */,
 			);
 			path = NameToFace;
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0581B7D21F2B0CAE00542C57 /* PersonCell.swift in Sources */,
 				0527E94C1F2A939700D7FB35 /* ViewController.swift in Sources */,
+				05BBC46E1F2F77CB00FBCB96 /* Person.swift in Sources */,
 				0527E94A1F2A939700D7FB35 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,6 +275,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.vervibe.NameToFace;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -280,6 +289,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.vervibe.NameToFace;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -302,6 +312,7 @@
 				0527E95A1F2A939700D7FB35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
